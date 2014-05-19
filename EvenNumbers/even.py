@@ -9,4 +9,4 @@ def find_even(number):
 
     if type(number) is not int:
         raise NonIntegerError
-    return number % 2 == 2
+    return number % 2 == 0
